@@ -1,5 +1,5 @@
 # include <stdio.h>
-#include <conio.h>
+
 int main() {
     float num; // declare a float variable 
     scanf("%f", &num); // read input from the user
