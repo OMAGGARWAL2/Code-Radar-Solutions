@@ -5,6 +5,7 @@ int main(){
     scanf("%d", &a);
     if a//2 == 0;
     print("Even");
-    else 
+    else; 
     print("Odd");
+    return 0;
 }
