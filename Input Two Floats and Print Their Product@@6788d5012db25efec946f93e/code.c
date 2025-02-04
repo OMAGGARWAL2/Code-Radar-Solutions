@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-int float() {
-    int a,b;
+int main() {
+    float a,b;
     scanf("%f", &a);
     scanf("%f", &b);
     printf("Product: %.2f", float);
