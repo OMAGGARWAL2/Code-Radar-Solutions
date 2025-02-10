@@ -5,11 +5,11 @@ int main(){
     scanf("%d", &a);
     if ((a % 4 == 0 && a % 100 != 0) || (a % 400 == 0))
     {
-    print("Leap Year\n");
+    printf("Leap Year\n");
     }
     else
     {
-    print("Not a Leap Year\n");
+    printf("Not a Leap Year\n");
     }
     return 0;
 }
