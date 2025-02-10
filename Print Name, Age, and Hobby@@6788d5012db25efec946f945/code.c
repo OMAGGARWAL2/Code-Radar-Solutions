@@ -9,5 +9,6 @@ int main(){
     printf("Name: %s", &name);
     printf("Age: %d", &age);
     printf("Hobby: %s", &hobby);
+    return 0;
 }
 
