@@ -8,4 +8,5 @@ int main(){
     else{
     print("Not a Leap Year\n");
     }
+    return 0;
 }
