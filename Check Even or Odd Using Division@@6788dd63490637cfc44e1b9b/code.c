@@ -3,12 +3,12 @@
 int main(){
     int a;
     scanf("%d", &a);
-    if 
+    if (a / 2 == 0) ;
     {
-        a / 2 == 0 ;
-    }
     printf("Even");
-    else
+    }
+    else {
     printf("Odd")
+    }
     return 0;
 }
