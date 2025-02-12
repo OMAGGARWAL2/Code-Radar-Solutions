@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 int main(){
     int n;
     if (n % 55 == 0){
@@ -6,4 +7,5 @@ int main(){
     } else {
         printf("Not Divisible");
     }
+    return 0;
 }
