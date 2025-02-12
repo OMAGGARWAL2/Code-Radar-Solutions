@@ -5,7 +5,6 @@ int main() {
     char op;
 
     scanf("%d %d %c", &a, &b, &op);
-
     if (op == '+') {
         printf("%d\n", a + b);
     } else if (op == '-') {
@@ -16,7 +15,7 @@ int main() {
         if (b == 0) {
         printf("Error: Division by zero\n");
         } else {
-        printf("%d\n", a / b);
+        printf("%.2f\n", a / b);
         }
     } else {
         printf("Error: Invalid operator\n");
