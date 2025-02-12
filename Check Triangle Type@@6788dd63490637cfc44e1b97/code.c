@@ -2,7 +2,7 @@
 
 int main(){
     int m,n,o;
-    scanf("%d   %d   %d", &m, &n, &o);
+    scanf("%d %d %d", &m, &n, &o);
     if (m + n > o && n + o > m && m + o > n) {
     if (m == n && n == 0){
         printf("Equilateral\n");
