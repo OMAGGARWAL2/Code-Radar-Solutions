@@ -19,6 +19,5 @@ int main(){
     } else {
         printf("Error: Invalid operator\n");
     }
-    }
     return 0;
 }
