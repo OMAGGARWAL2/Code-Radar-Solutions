@@ -14,12 +14,12 @@ int main() {
         printf("%d\n", a * b);   
     } else if (op == '/') {
         if (b == 0) {
-            printf("Error: Division by zero\n");
+            printf("error\n");
         } else {
             printf("%d\n", a / b);
         }
     } else {
-        printf("Error: Invalid operator\n");
+        printf("error\n");
     }
     return 0;
 }
