@@ -15,7 +15,7 @@ int main() {
         if (b == 0) {
         printf("Error: Division by zero\n");
         } else {
-        printf("%.2f\n", (float)a / b);
+        printf("%.2f\n", a / b);
         }
     } else {
         printf("Error: Invalid operator\n");
