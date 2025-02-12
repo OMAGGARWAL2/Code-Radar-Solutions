@@ -11,7 +11,14 @@ int main(){
     }else if (char op == '*'){
         printf("%d\n", a * b);   
     }else if (char op == '/'){
-        printf("%d\n", a / b);   
+        (if b == 0){
+            printf("Error: Division by zero\n")
+        } else{
+            printf("%d\n", a / b);
+        }
+    } else {
+        printf("Error: Invalid operator\n");
+    }
     }
     return 0;
 }
