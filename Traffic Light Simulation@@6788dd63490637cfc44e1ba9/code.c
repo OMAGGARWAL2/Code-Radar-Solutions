@@ -10,6 +10,6 @@ int main(){
     } else if (char = G){
         printf("Go");
     } else {
-        printf("Invalid input")
+        printf("Invalid input");
     }
 }
