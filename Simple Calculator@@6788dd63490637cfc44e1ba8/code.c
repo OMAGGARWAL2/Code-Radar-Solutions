@@ -13,4 +13,5 @@ int main(){
     }else if (char op = "-"){
         printf(a / b);   
     }
+    return 0;
 }
