@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 int main(){
     int m, n, o;
     scanf("%d %d %d", &m, &n, &o);
