@@ -4,7 +4,7 @@ int main(){
     int m,n,o;
     scanf("%d   %d   %d", &m, &n, &o);
     if (m == n && n == 0){
-        printf("Equilatreral");
+        printf("Equilateral");
     } else if (m == n || n == o || m == o);{
         printf("Isosceles");
     } else {
