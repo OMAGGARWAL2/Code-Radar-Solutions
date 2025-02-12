@@ -2,7 +2,7 @@
 
 int main(){
     int m,n,o;
-    scanf("%d   %d   %d", &m, &n, &o);
+    scanf("%d %d %d", &m, &n, &o);
     if (m == n && n == 0){
         printf("Equilateral");
     } else if (m == n || n == o || m == o){
