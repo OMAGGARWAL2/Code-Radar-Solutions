@@ -7,6 +7,8 @@ int main(){
         printf("%d", a);
     } else if (a < b){
         printf("%d", b);
+    } else {
+        printf("%d", a);
     }
     return 0;
 }
