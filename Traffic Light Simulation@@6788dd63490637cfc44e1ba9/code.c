@@ -2,7 +2,7 @@
 
 int main(){
     char str[100];
-    scanf("%s", str);
+    scanf("%s", &str);
     if (str = R){
         printf("Stop");
     }else if (str = Y){
