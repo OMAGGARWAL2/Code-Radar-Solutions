@@ -4,10 +4,8 @@ int main() {
     int a, b;
     char op;
 
-    // Input: two integers followed by an operator
     scanf("%d %d %c", &a, &b, &op);
 
-    // Perform operation based on the operator
     if (op == '+') {
         printf("%d\n", a + b);
     } else if (op == '-') {
@@ -23,6 +21,5 @@ int main() {
     } else {
         printf("Error: Invalid operator\n");
     }
-
     return 0;
 }
