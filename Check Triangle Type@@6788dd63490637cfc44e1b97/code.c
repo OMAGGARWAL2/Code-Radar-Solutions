@@ -4,13 +4,13 @@ int main(){
     int m,n,o;
     scanf("%d %d %d", &m, &n, &o);
     if (m + n > o && n + o > m && m + o > n) {
-    if (m == n && n == 0){
+        if (m == n && n == 0){
         printf("Equilateral\n");
-    } else if (m == n || n == o || m == o){
-        printf("Isosceles\n");
-    } else {
-        printf("Scalene\n");
-    }
+        } else if (m == n || n == o || m == o){
+            printf("Isosceles\n");
+        } else {
+            printf("Scalene\n");
+        }
     }else {
         printf("Not a Triangle\n");
     }
