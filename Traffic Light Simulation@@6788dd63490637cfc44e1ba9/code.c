@@ -3,11 +3,11 @@
 int main(){
     char str[100];
     scanf("%s", str);
-    if (char = R){
+    if (str = R){
         printf("Stop");
-    }else if (char = Y){
+    }else if (str = Y){
         printf("Slow Down");
-    } else if (char = G){
+    } else if (str = G){
         printf("Go");
     } else {
         printf("Invalid input");
