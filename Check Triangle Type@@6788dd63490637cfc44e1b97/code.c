@@ -4,11 +4,11 @@ int main(){
     int m,n,o;
     scanf("%d   %d   %d", &m, &n, &o);
     if (m == n && n == 0){
-        printf("Equilateral");
+        printf("Equilateral\n");
     } else if (m == n || n == o || m == o){
-        printf("Isosceles");
+        printf("Isosceles\n");
     } else {
-        printf("Scalene");
+        printf("Scalene\n");
     }
     return 0;
 }
