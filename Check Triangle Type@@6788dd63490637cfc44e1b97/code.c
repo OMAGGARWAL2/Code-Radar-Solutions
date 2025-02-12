@@ -12,7 +12,7 @@ int main(){
         printf("Scalene\n");
     }
     }else {
-        printf("Not a Triangle\n")
+        printf("Not a Triangle\n");
     }
     return 0;
 }
