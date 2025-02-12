@@ -2,6 +2,7 @@
 
 int main(){
     int n;
+    scanf("%d", &n);
     if (n % 55 == 0){
         printf("Divisible");
     } else {
