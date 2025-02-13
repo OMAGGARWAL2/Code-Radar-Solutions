@@ -6,10 +6,10 @@ int main(){
     if (p >= 18){
         printf("Eligible");
         if (q == 1){
-            printf("Eligible")
+            printf("Eligible");
         }
     } else {
-        printf("Not Eligible")
+        printf("Not Eligible");
     }
-    
+    return 0;
 }
