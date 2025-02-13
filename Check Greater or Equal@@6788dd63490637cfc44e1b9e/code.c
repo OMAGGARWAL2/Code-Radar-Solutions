@@ -6,7 +6,7 @@ int main(){
     if (q >= p){
         printf("Yes");
     } else {
-        printf("No")
+        printf("No");
     }
     return 0;
 }
