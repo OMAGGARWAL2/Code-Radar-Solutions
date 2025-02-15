@@ -3,7 +3,7 @@
 int main(){
     int q;
     scanf("%d", &q);
-    if (q >= 0){
+    if (q !> 0){
         printf("False");
     } else {
         printf("True");
