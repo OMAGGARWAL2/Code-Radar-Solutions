@@ -1,27 +1,21 @@
 #include <stdio.h>
 
 int main() {
-    int n, i, isPrime = 1;
+    int n;
     scanf("%d", &n);
 
-    // A prime number must be greater than 1
     if (n <= 1) {
         printf("Not Prime\n");
-        return 0;
-    }
-
-    // Check divisibility from 2 to sqrt(n)
-    for (i = 2; i * i <= n; i++) {
-        if (n % i == 0) {
-            isPrime = 0;  // Found a divisor
-            break;
-        }
-    }
-
-    if (isPrime)
+    } 
+    else if (n == 2 || n == 3 || n == 5 || n == 7) {
         printf("Prime\n");
-    else
+    } 
+    else if (n % 2 == 0 || n % 3 == 0 || n % 5 == 0 || n % 7 == 0) {
         printf("Not Prime\n");
+    } 
+    else {
+        printf("Prime\n");
+    }
 
     return 0;
 }
