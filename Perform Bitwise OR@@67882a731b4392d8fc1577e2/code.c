@@ -3,5 +3,5 @@
 int main() {
     int p, q;
     scanf("%d %d", &p, &q);
-    print(a | b);
+    print("%d", a | b);
 }
