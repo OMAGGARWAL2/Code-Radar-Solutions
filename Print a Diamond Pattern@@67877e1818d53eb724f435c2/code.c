@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    int i, j, Sp;
+    int i, j, N, Sp;
     for(i = 1; i <= N - 1; i++)
     {
         for (Sp = 1; Sp <= N - i; Sp++)
